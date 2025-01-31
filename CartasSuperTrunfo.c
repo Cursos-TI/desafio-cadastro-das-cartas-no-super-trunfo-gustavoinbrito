@@ -12,7 +12,7 @@ typedef struct {
 // Função para criar um país
 Pais criarPais(char *nome, int populacao, int area, double pib, double idh) {
     Pais pais;
-    intscpry(pais.nome, nome);
+    scpry(pais.nome, nome);
     pais.populacao = populacao;
     pais.area = area;
     pais.pib = pib;
